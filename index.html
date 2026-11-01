@@ -8,22 +8,21 @@
     <!-- Tailwind CSS CDN para entorno estático -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            /* ACTUALIZAR CON LOS CÓDIGOS HEX DEL PACKAGING */
-                            primary: '#0ea5e9',
-                            secondary: '#10b981',
-                            dark: '#1e293b',
-                            light: '#f8fafc'
-                        }
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    brand: {
+                        primary: '#47336b',   /* Violeta principal (Botones y textos destacados) */
+                        secondary: '#574768', /* Violeta secundario (Acentos e íconos) */
+                        dark: '#261b3b',      /* Violeta muy oscuro casi negro (Footer y títulos) */
+                        light: '#fcfbfe'      /* Blanco con un levísimo tinte lila para fondos */
                     }
                 }
             }
         }
-    </script>
+    }
+</script>
     <!-- FontAwesome para iconografía UI -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
@@ -52,13 +51,13 @@
             <div class="md:w-1/2 text-center md:text-left pr-0 md:pr-8">
                 <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                     <span class="block">Higiene superior con</span>
-                    <span class="block text-[#432360]">Mascotitas Felices</span>
+                    <span class="block text-brand-primary">Mascotitas Felices</span>
                 </h1>
                 <p class="mt-4 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl">
                     Garantiza un entorno limpio y libre de malos olores. La solución sanitaria eficiente de alto rendimiento para el cuidado diario de tus mascotas.
                 </p>
                 <div class="mt-10 sm:flex sm:justify-center md:justify-start">
-                    <a href="https://wa.me/5493516534371?text=Hola,%20quiero%20conocer%20las%20opciones%20y%20precios%20de%20las%20piedritas." target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#432360] hover:bg-opacity-90 transition md:py-4 md:text-lg md:px-10 shadow-lg">
+                    <a href="https://wa.me/5493516534371?text=Hola,%20quiero%20conocer%20las%20opciones%20y%20precios%20de%20las%20piedritas." target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-brand-primary hover:bg-opacity-90 transition md:py-4 md:text-lg md:px-10 shadow-lg">
                         <i class="fab fa-whatsapp mr-2 text-xl"></i> Comprar por WhatsApp
                     </a>
                 </div>
