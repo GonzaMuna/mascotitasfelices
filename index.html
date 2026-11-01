@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotitas Felices | Piedritas Sanitarias Premium</title>
+    <meta name="description" content="Piedritas sanitarias Mascotitas Felices. Máximo control de olores y alta capacidad aglutinante para la higiene de tu gato.">
+    <!-- Tailwind CSS CDN para entorno estático -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            /* ACTUALIZAR CON LOS CÓDIGOS HEX DEL PACKAGING */
+                            primary: '#0ea5e9',
+                            secondary: '#10b981',
+                            dark: '#1e293b',
+                            light: '#f8fafc'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome para iconografía UI -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-brand-light text-brand-dark font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- Header / Placeholder de Logo -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex-shrink-0 flex items-center">
+                <!-- Reemplazar esta etiqueta "a" con un <img> al tener el vector -->
+                <a href="#" class="text-2xl font-bold text-brand-primary tracking-tight">
+                    Mascotitas<span class="text-brand-secondary">Felices</span>
+                </a>
+            </div>
+            <div>
+                <a href="https://wa.me/5493516534371?text=Hola,%20vengo%20de%20la%20página%20web.%20Me%20interesan%20las%20piedritas%20sanitarias." target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-brand-primary hover:bg-opacity-90 transition">
+                    <i class="fab fa-whatsapp mr-2 text-lg"></i> Consultar ahora
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-white pt-16 pb-20 lg:pt-24 lg:pb-28">
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                <span class="block">Higiene superior con</span>
+                <span class="block text-brand-primary">Mascotitas Felices</span>
+            </h1>
+            <p class="mt-4 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                Garantiza un entorno limpio y libre de malos olores. La solución sanitaria eficiente de alto rendimiento para el cuidado diario de tus mascotas.
+            </p>
+            <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+                <a href="https://wa.me/5493516534371?text=Hola,%20quiero%20conocer%20las%20opciones%20y%20precios%20de%20las%20piedritas." target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-brand-primary hover:bg-opacity-90 transition md:py-4 md:text-lg md:px-10 shadow-lg">
+                    <i class="fab fa-whatsapp mr-2 text-xl"></i> Comprar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios Clave -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-extrabold text-gray-900">Desarrollo orientado al rendimiento</h2>
+            </div>
+            <div class="mt-12 grid gap-8 grid-cols-1 md:grid-cols-2">
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 flex flex-col items-center text-center">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-brand-primary text-white mb-4">
+                        <i class="fas fa-wind text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Máximo Control de Olores</h3>
+                    <p class="text-gray-500">Nuestra composición aísla y neutraliza la acción del amoníaco de forma prolongada, manteniendo la frescura de los ambientes del hogar sin necesidad de usar fragancias artificiales invasivas.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 flex flex-col items-center text-center">
+                    <div class="flex items-center justify-center h-12 w-12 rounded-md bg-brand-secondary text-white mb-4">
+                        <i class="fas fa-tint-slash text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Poder Aglutinante</h3>
+                    <p class="text-gray-500">El mineral genera terrones sólidos y secos al entrar en contacto con líquidos. Esto facilita la remoción precisa de la suciedad, reduciendo el desperdicio del producto y maximizando su duración.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Variedades / Tamaños -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold text-gray-900">Presentaciones Disponibles</h2>
+                <p class="mt-4 text-lg text-gray-500">Opciones adaptadas a las necesidades logísticas de tu hogar.</p>
+            </div>
+            
+            <div class="grid gap-8 md:grid-cols-2 lg:max-w-4xl lg:mx-auto">
+                <!-- Presentación A (ACTUALIZAR PESO) -->
+                <div class="border border-gray-200 rounded-xl p-8 hover:border-brand-primary transition">
+                    <h3 class="text-2xl font-bold text-gray-900 text-center mb-4">Bolsa de 2 Kg</h3>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-brand-secondary mt-1 mr-3"></i>
+                            <span class="text-gray-600">Ideal para testear el producto.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-brand-secondary mt-1 mr-3"></i>
+                            <span class="text-gray-600">Fácil manipulación y almacenamiento.</span>
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/5493516534371?text=Hola,%20me%20interesa%20encargar%20la%20presentación%20pequeña%20de%20Mascotitas%20Felices." target="_blank" rel="noopener noreferrer" class="block w-full text-center px-4 py-2 bg-gray-50 border border-brand-primary text-brand-primary font-semibold rounded-md hover:bg-brand-primary hover:text-white transition">
+                        Solicitar esta presentación
+                    </a>
+                </div>
+
+                <!-- Presentación B (ACTUALIZAR PESO) -->
+                <div class="border-2 border-brand-primary rounded-xl p-8 shadow-md relative">
+                    <div class="absolute top-0 right-0 -mt-4 mr-4 bg-brand-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+                        Mayor Rendimiento
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 text-center mb-4">Bolsa de 4 Kg</h3>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-brand-secondary mt-1 mr-3"></i>
+                            <span class="text-gray-600">Optimiza el costo por kilo.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-brand-secondary mt-1 mr-3"></i>
+                            <span class="text-gray-600">Recomendado para uso continuo o múltiples mascotas.</span>
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/5493516534371?text=Hola,%20me%20interesa%20encargar%20la%20presentación%20grande%20de%20Mascotitas%20Felices." target="_blank" rel="noopener noreferrer" class="block w-full text-center px-4 py-2 bg-brand-primary text-white font-semibold rounded-md hover:bg-opacity-90 transition">
+                        Solicitar esta presentación
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preguntas Frecuentes -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-8">Preguntas Frecuentes</h2>
+            <div class="space-y-4">
+                <details class="bg-white rounded-lg shadow-sm border border-gray-100 p-6 group cursor-pointer">
+                    <summary class="text-lg font-bold text-gray-900 flex justify-between items-center outline-none">
+                        ¿Cómo funciona la propiedad aglutinante?
+                        <span class="text-brand-primary group-open:rotate-180 transition-transform">
+                            <i class="fas fa-chevron-down"></i>
+                        </span>
+                    </summary>
+                    <p class="mt-4 text-gray-600">Al interactuar con fluidos, las piedritas forman un coágulo mineral que aísla la suciedad del resto de la bandeja. Solo remueves esa porción compacta, alargando la vida útil del sustrato limpio.</p>
+                </details>
+                <details class="bg-white rounded-lg shadow-sm border border-gray-100 p-6 group cursor-pointer">
+                    <summary class="text-lg font-bold text-gray-900 flex justify-between items-center outline-none">
+                        ¿Tienen servicio de entrega?
+                        <span class="text-brand-primary group-open:rotate-180 transition-transform">
+                            <i class="fas fa-chevron-down"></i>
+                        </span>
+                    </summary>
+                    <p class="mt-4 text-gray-600">Sí. Coordinamos la logística de entrega de forma directa. Selecciona la presentación deseada y escríbenos para confirmar la disponibilidad y costos de envío según tu área.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark mt-auto border-t border-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+            <h2 class="text-2xl font-bold text-white mb-6">Mascotitas Felices</h2>
+            <p class="text-gray-400 mb-8 text-center max-w-md">Sustratos sanitarios orientados a la higiene animal. Asegura la sanidad de tus mascotas con una solución de alto estándar.</p>
+            
+            <a href="https://wa.me/5493516534371?text=Hola,%20necesito%20asistencia%20general%20con%20los%20productos." target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-white bg-green-500 hover:bg-green-600 px-6 py-3 rounded-full font-medium transition shadow-lg mb-8">
+                <i class="fab fa-whatsapp mr-2 text-xl"></i> +54 351 653-4371
+            </a>
+
+            <div class="text-sm text-gray-500 text-center">
+                <p>&copy; 2026 Mascotitas Felices. Lead Generation Landing Page.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
